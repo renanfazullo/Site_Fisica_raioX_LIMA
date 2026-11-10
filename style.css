@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111318;
+    color: #e0e0e0;
+    line-height: 1.7;
+}
+header {
+    background: linear-gradient(135deg, #080b12, #142b49);
+    color: white;
+    text-align: center;
+    padding: 60px 20px 35px;
+    border-bottom: 3px solid #244d7a;
+}
+header h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+header p {
+    color: #b8c5d6;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #202b3b;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #315c8c;
+    transform: translateY(-3px);
+}
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+section {
+    background-color: #1b1e25;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 1px solid #343b46;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+section h2 {
+    color: #79a9df;
+    font-size: 27px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #294c72;
+}
+section h3 {
+    color: #a9c9ed;
+    margin-bottom: 10px;
+}
+section p {
+    color: #c5c9d0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.inicio {
+    background: linear-gradient(135deg, #202b3b, #141922);
+    text-align: center;
+    padding: 50px 35px;
+}
+.inicio h2 {
+    color: #8bbcf0;
+    font-size: 32px;
+}
+.inicio p {
+    text-align: center;
+    font-size: 17px;
+}
+section img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 280px;
+    object-fit: contain;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #344a63;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    overflow: hidden;
+}
+th {
+    background-color: #203c5c;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+td {
+    padding: 13px;
+    border: 1px solid #3a414c;
+    color: #d0d4dc;
+}
+.card, .aplicacao, .medicina-card {
+    background-color: #252a33;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 8px;
+    border-left: 4px solid #315c8c;
+    transition: 0.3s;
+}
+.card:hover, .aplicacao:hover, .medicina-card:hover {
+    background-color: #2c3542;
+    transform: translateX(5px);
+}
+.card h3, .aplicacao h3, .medicina-card h3 {
+    color: #82b2e8;
+    font-size: 20px;
+}
